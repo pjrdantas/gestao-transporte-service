@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+
+	<persistence-unit name="gestao-transporte-service"
+		transaction-type="RESOURCE_LOCAL">
+
+		<class>br.com.rd.gestaoTransporte.domain.TbTpStatusDanfeVerde</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbTpOperacao</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbTpCarroceria</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMotivoCancel</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbItemDanfeVerde</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbFilialComplemento</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbEquipamentoFilialRota</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbDanfeVerde</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbCaixaRotativa</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbCidade</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbCdRegional</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbCondutor</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbDepartamento</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbEnderecoGeral</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbFilial</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbFilialRota</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbFornecedor</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMdfe</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMdfeStatus</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMdfeRastreamento</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMenu</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMenuAcesso</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMenuAcessoPK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMenuItem</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMenuItemAcesso</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMenuItemAcessoPK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMenuItemPK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMontadora</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMotivoCancelamento</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNf</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfItem</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfItemPK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfItemComplPK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfItemCompl</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfItemLote</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfCompleUnica</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfRastreamento</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfTransporte</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbOperador</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbOperadorPerfil</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbOperadorPerfilPK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbParametroSistema</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbPerfil</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbPerfilTipo</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbPmaxxiEnvio</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbPmaxxiNfe</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbPmaxxiNfePK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbPmaxxiStatus</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbPmaxxiEntrega</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbPmaxxiRastreamento</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbProduto</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbProdutoEstoqueAtualizar</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbRejeicao</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbServico</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbSistema</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbSituacao</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbTipoOperacao</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbTipoVeiculo</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbTipoCarroceria</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbVeiculo</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMDFeNFe</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbMDFeNFePK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbTpOperacaoFiscalPK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbTpOperacaoFiscal</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbEstado</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbFaturamentoRastreamento</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbStatusFaturamento</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbRegistroProduto</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbGrupo</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfItemFiscal</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbNfItemFiscalPK</class>
+		<class>br.com.rd.gestaoTransporte.domain.TbTpVeiculo</class>
+
+
+		<properties>
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:oracle:thin:@lnxbderphml01.raiadrogasil.com.br:1521/r104d.raiadrogasil.com.br" />
+			<property name="javax.persistence.jdbc.user"
+				value="a_raiabd" />
+			<property name="javax.persistence.jdbc.password"
+				value="raia" />
+			<property name="javax.persistence.jdbc.driver"
+				value="oracle.jdbc.OracleDriver" />
+		</properties>
+	</persistence-unit>
+</persistence>
