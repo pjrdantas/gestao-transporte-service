@@ -14,7 +14,8 @@ import lombok.Setter;
 @EqualsAndHashCode
 @AllArgsConstructor
 @JsonInclude(JsonInclude.Include.USE_DEFAULTS)
-@JsonPropertyOrder({ "cdCondutor", "cdFornecedor", "flagAtivo", "nmCondutor", "nmFornecedor", "numeroCnh","numeroCpf" })
+@JsonPropertyOrder({ "cdCondutor", "cdFornecedor", "flagAtivo", "nmCondutor", "nmFornecedor", "numeroCnh",
+		"numeroCpf" })
 public class CondutorDTO {
 
 	@JsonProperty("cdCondutor")
